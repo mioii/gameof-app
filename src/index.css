@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Aggiungi anche questi stili globali per garantire lo sfondo scuro */
+@layer base {
+  body {
+    @apply bg-[#171717] text-white;
+    /* Miglioramenti per mobile */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  /* Migliora la scrollabilità su mobile */
+  * {
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+/* Animazioni per il background overlay */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px) translateX(0px) scale(1);
+  }
+  33% {
+    transform: translateY(-20px) translateX(10px) scale(1.02);
+  }
+  66% {
+    transform: translateY(10px) translateX(-5px) scale(0.98);
+  }
+}
+
+@keyframes drift {
+  0% {
+    transform: translateX(-50px) rotate(0deg);
+    opacity: 0.03;
+  }
+  50% {
+    transform: translateX(50px) rotate(2deg);
+    opacity: 0.08;
+  }
+  100% {
+    transform: translateX(-50px) rotate(0deg);
+    opacity: 0.03;
+  }
+}
+
+.bg-overlay {
+  animation: float 20s ease-in-out infinite;
+  width: 100vw !important;
+  height: 100vh !important;
+  object-fit: cover;
+  /* Aggiungi contrasto */
+  filter: contrast(1.5) brightness(0.8);
+}
+
+.bg-overlay-2 {
+  animation: drift 30s ease-in-out infinite;
+  animation-delay: -10s;
+  width: 100vw !important;
+  height: 100vh !important;
+  object-fit: cover;
+  /* Aggiungi contrasto */
+  filter: contrast(1.3) brightness(0.9);
+}
