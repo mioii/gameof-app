@@ -18,7 +18,7 @@ Il progetto è configurato per essere deployato su GitHub Pages:
 
 1. **Clona il repository**
    ```bash
-   git clone https://github.com/tuousername/gameof-app.git
+   git clone https://github.com/mioii/gameof-app.git
    cd gameof-app
    ```
 
