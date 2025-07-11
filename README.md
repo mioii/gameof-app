@@ -1,117 +1,93 @@
-# Game of App
+# Game Of... App
 
-Un gioco divertente e interattivo creato con React, Tailwind CSS e Vite. Perfetto per serate in compagnia!
+A modern and responsive React word-guessing game with Rumble branding. Players select a word category and guess a mystery word letter by letter, with beautiful animations and mobile-friendly interface.
 
-## 🎮 Caratteristiche
+## 🎮 Features
 
-- **Interfaccia moderna**: Design pulito e responsive con Tailwind CSS
-- **Temi personalizzati**: Colori brand Rumble
-- **Completamente responsive**: Ottimizzato per desktop e mobile
-- **Animazioni fluide**: Background SVG animato e transizioni CSS
-- **Facile da usare**: Setup intuitivo del gioco e gameplay semplice
+- **Multiple Categories**: Animals, Food, Countries, Sports, Movies, and more
+- **Interactive UI**: Touch-friendly interface with smooth animations
+- **Responsive Design**: Optimized for desktop and mobile devices
+- **Rumble Branding**: Custom color palette and logo integration
+- **Advanced Scrolling**: Intelligent auto-scroll and touch gestures
+- **SVG Overlays**: Dynamic background animations with fade effects
+- **Wildcard Feature**: Skip difficult letters with limited wildcards
 
-## 🚀 Deployment
+## 🌐 Live Demo
 
-### GitHub Pages
+Visit [gameof.app](https://gameof.app) to play the game!
 
-Il progetto è configurato per essere deployato su GitHub Pages:
+## 🚀 Development
 
-1. **Clona il repository**
-   ```bash
-   git clone https://github.com/mioii/gameof-app.git
-   cd gameof-app
-   ```
+This project is built with:
+- React 18
+- Vite
+- Tailwind CSS
+- Modern ES6+ JavaScript
 
-2. **Installa le dipendenze**
-   ```bash
-   npm install
-   ```
-
-3. **Costruisci per produzione**
-   ```bash
-   npm run build
-   ```
-
-4. **Pusha su GitHub**
-   ```bash
-   git add .
-   git commit -m "Deploy to GitHub Pages"
-   git push origin main
-   ```
-
-5. **Configura GitHub Pages**
-   - Vai su Settings → Pages
-   - Seleziona "Deploy from a branch"
-   - Branch: `main`
-   - Folder: `docs`
-
-### Dominio Personalizzato
-
-Il progetto include un file `CNAME` per il dominio `gameof.app`. Per configurare il dominio:
-
-1. **Nelle impostazioni del repository GitHub**:
-   - Vai su Settings → Pages
-   - Inserisci `gameof.app` nel campo Custom domain
-   - Salva
-
-2. **Configura il DNS del tuo dominio**:
-   - Aggiungi un record CNAME che punta a `tuousername.github.io`
-   - Oppure un record A che punta agli IP di GitHub Pages
-
-## 🛠️ Sviluppo
-
-### Requisiti
-- Node.js (v16 o superiore)
-- npm
-
-### Comandi disponibili
+### Local Development
 
 ```bash
-# Avvia il server di sviluppo
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
 
-# Costruisci per produzione
+# Build for production
 npm run build
 
-# Anteprima build di produzione
+# Preview production build
 npm run preview
-
-# Lint del codice
-npm run lint
 ```
 
-## 🎯 Come giocare
+## 📦 Deployment
 
-1. **Setup del gioco**: Inserisci le parole o usa i preset
-2. **Aggiungi giocatori**: Ogni giocatore inserisce il proprio nome
-3. **Inizia a giocare**: I giocatori vengono eliminati uno alla volta
-4. **Wildcard**: Usa il pulsante stella per salvare un giocatore
-5. **Vincitore**: Celebra il vincitore con la schermata finale!
+This project is configured for GitHub Pages deployment:
 
-## 🎨 Tecnologie utilizzate
+1. **GitHub Pages**: Automatically deploys from the `docs/` folder
+2. **Custom Domain**: Configured with CNAME file for `gameof.app`
+3. **Build Output**: Production build automatically generated in `docs/`
 
-- **React**: Framework JavaScript per l'interfaccia
-- **Tailwind CSS**: Framework CSS per lo styling
-- **Vite**: Build tool e dev server
-- **Lucide React**: Icone moderne
-- **PostCSS**: Post-processing CSS
-- **ESLint**: Linting del codice
+### DNS Configuration
 
-## 🏢 Brand
+For the custom domain `gameof.app`, configure these DNS records:
 
-Powered by [Rumble](https://gorumble.app)
+```
+A     @     185.199.108.153
+A     @     185.199.109.153
+A     @     185.199.110.153
+A     @     185.199.111.153
+CNAME www   sickmind.github.io
+```
 
-## 📝 Licenza
+## 🎨 Design Features
 
-MIT License - Sentiti libero di usare questo progetto per i tuoi scopi!+ Vite
+- **Rumble Color Palette**: Custom orange, red, and dark theme
+- **Mobile-First**: Responsive design with touch optimizations
+- **Smooth Animations**: CSS transitions and hover effects
+- **Accessibility**: High contrast and touch-friendly elements
+- **Modern UI**: Clean, professional interface with subtle shadows and gradients
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📱 Mobile Optimizations
 
-Currently, two official plugins are available:
+- Touch-friendly button sizes (min 44px)
+- Horizontal scroll for long words/names
+- Swipe gestures for navigation
+- Responsive font sizes and spacing
+- Optimized for various screen sizes
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔧 Technical Details
 
-## Expanding the ESLint configuration
+- **Vite**: Fast development and optimized builds
+- **Tailwind CSS**: Utility-first CSS framework
+- **PostCSS**: CSS processing with Autoprefixer
+- **ESLint**: Code linting and formatting
+- **GitHub Actions**: Automated deployment pipeline
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📄 License
+
+This project is part of the Rumble ecosystem. All rights reserved.
+
+---
+
+**Powered by [gorumble.app](https://gorumble.app)**
