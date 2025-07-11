@@ -1,14 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 138.3 143.7">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: #f5484d;
-        stroke-width: 0px;
-      }
-    </style>
-  </defs>
-  <a xlink:href="88.800431372549">
-    <polygon id="fullLogo" class="cls-1" points="102 111.7 138.3 94.4 103.4 0 0 10.2 0 143.7 50.6 143.7 41.4 103 24.1 26.8 97.3 77 41.4 103 118.4 143.7 102 111.7"/>
-  </a>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F5484D;stroke:#000000;stroke-miterlimit:10;}
+	.st1{stroke:#000000;stroke-width:2.0396;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<g>
+	<a xlink:href="88.800431372549" >
+		<polygon id="fullLogo_00000143582100771633870130000003276087708825377419_" class="st0" points="1050.32,649.91 1150.01,602.34 
+			1054.05,343 769.86,370.99 769.86,738 909.01,738 883.64,625.95 836.23,416.52 1037.35,554.49 883.64,625.95 1095.16,738 		"/>
+	</a>
+</g>
 </svg>
